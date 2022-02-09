@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2F537A;
+}
+ul{
+    list-style:none
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: #4C87C7;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+header div a{
+    color: #2F537A;
+    font-size: 40px;
+    transition: 0.7s;
+    font-family: "Bebas Neue", sans-serif;
+}
+header div a:hover{
+    color: white;
+}
+.main-sec{
+    background-color: #ABD1FB;
+}
+.text-block{
+    margin-top: 25px;
+    width: 40%;
+}
+.text-block p{
+    text-align: right;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+.text-block p span{
+    font-size: 40px;
+    color: #2F537A;
+    font-style: italic;
+    font-weight: bold;
+}
